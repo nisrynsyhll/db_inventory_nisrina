@@ -1,0 +1,6 @@
+Data Base
+
+create table db_inventory_nisrina
+
+
+
