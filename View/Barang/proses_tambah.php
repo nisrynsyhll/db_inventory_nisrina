@@ -1,13 +1,13 @@
- <?php
+<?php
  include '..//../config/koneksi.php';
 
- $id_barang = $_POST['id_barang'];
- $nama_barang = $_POST['nama_barang'];
- $id_jenis = $_POST['id_jenis'];
- $harga = $_POST['harga'];
- $stock = $_POST['stock'];
+ $Id_Barang = $_POST['Id_Barang'];
+ $Nama_Barang = $_POST['Nama_Barang'];
+ $Id_Jenis = $_POST['Id_Jenis'];
+ $Harga = $_POST['Harga'];
+ $Stock = $_POST['Stock'];
 
- $sql = "INSERT INTO barang (id_barang, nama_barang, id_jenis, harga, stock) VALUES ('$id_barang, $nama_barang, $id_jenis, $harga, $stock')";
+ $sql = "INSERT INTO barang (Id_Barang, Nama_Barang, Id_Jenis, Harga, Stock) VALUES ('$Id_Barang, $Nama_Barang, $Id_Jenis, $Harga, $Stock')";
  if(mysqli_query(mysql: $conn, query: $sql)) {
     echo "Data Berhasil Ditambahkan";
     header(header: "location: index.php");

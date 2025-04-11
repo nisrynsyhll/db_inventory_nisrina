@@ -12,11 +12,11 @@
         <form>
         <div class="mb-3">
                 <label for="" class="form-label">ID Jenis</label>
-                <input type="number" class="form-control" name="id_barang" id="" placeholder=""/>>
+                <input type="number" class="form-control" name="Id_Barang" id="" placeholder=""/>
             </div>
             <div class="mb-3">
                 <label for="" class="form-label">Nama Jenis</label>
-                <input type="number" class="form-control" name="nama_barang" id="" placeholder=""/>>
+                <input type="number" class="form-control" name="Nama_Barang" id="" placeholder=""/>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
             <a href="index.php" class="btn btn-success">Kembali ke index</a>

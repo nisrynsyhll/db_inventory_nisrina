@@ -30,15 +30,15 @@
     <h1>Tambah Data Barang Nisrina</h1>
         <form>
             <div class="mb-3">
-                <label for="" class="form-label">ID Barang</label>
-                <input type="number" class="form-control" name="id_barang" id="" placeholder=""/>>
+                <label for="" class="form-label">Id Barang</label>
+                <input type="number" class="form-control" name="id_barang" id="" placeholder=""/>
             </div>
             <div class="mb-3">
                 <label for="" class="form-label">Nama Barang</label>
                 <input type="Text" class="form-control" name="nama_barang" id="" placeholder=""/>
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">ID Jenis</label>
+                <label for="" class="form-label">Id Jenis</label>
                 <input type="number" class="form-control" name="id_barang" id="" placeholder=""/>
             </div>
             <div class="mb-3">

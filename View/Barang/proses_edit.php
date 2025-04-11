@@ -1,17 +1,19 @@
-<?php $id = $_GET ['id'];
+<?php $Id = $_GET ['Id_Barang'];
 
-$nama_barang = $_POST ['nama_barang'];
-$id_jenis = $_POST ['id_jenis'];
-$harga = $_POST ['harga'];
-$stock = $_POST ['stock'];
+$Nama_Barang = $_POST ['Nama_Barang'];
+$Id_Jenis = $_POST ['Id_Jenis'];
+$Harga = $_POST ['Harga'];
+$Stock = $_POST ['Stock'];
+
 include '../../config/koneksi.php';
 
-$query = mysqli_query(mysql: $Conn, query: "UPDATE barang SET
-nama_barang='$nama_barang',
-id_jenis= '$id_jenis',
-harga='$harga',
-stock= '$stock'
-WHERE id_barang = '$id'");
+$query = mysqli_query($conn,"UPDATE barang SET
+Nama_Barang='$Nama_Barang',
+Id_Jenis= '$Id_Jenis',
+Harga='$Harga',
+Stock= '$Stock'
+WHERE Id_Barang = '$Id_Barang'
+");
 
 //JS
 if ($query) {

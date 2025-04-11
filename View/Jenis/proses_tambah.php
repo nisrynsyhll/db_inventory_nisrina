@@ -1,10 +1,10 @@
 <?php
  include '..//../config/koneksi.php';
 
- $id_jenis = $_POST['id_jenis'];
- $nama_jenis = $_POST['nama_jenis'];
+ $Id_Jenis = $_POST['id_jenis'];
+ $Nama_Jenis = $_POST['nama_jenis'];
 
- $sql = "INSERT INTO jenis (id_jenis, nama_jenis) VALUES ('$id_jenis, $nama_jenis')";
+ $sql = "INSERT INTO jenis (id_jenis, nama_jenis) VALUES ('$Id_Jenis, $Nama_Jenis')";
  if(mysqli_query(mysql: $conn, query: $sql)) {
     echo "Data Berhasil Ditambahkan";
     header(header: "location: index.php");
